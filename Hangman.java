@@ -12,7 +12,7 @@ public class A01Hangman {
      * @param args the command line arguments
      */
     
-    private static String[] words = {"jazz", "blues", "rock", "country","gospel"};
+    private static String[] words = {"jazz", "blues", "Metal", "country","gospel"};
     private static String word = words[(int) (Math.random() * words.length)];
     private static String asterisk = new String(new char[word.length()]).replace("\0", "*");
     private static int count = 0;    
